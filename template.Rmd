@@ -2,7 +2,7 @@
 title: "Not Simple document"
 author: "Robert Ariss"
 date: 2026-09-25
-output: html_document
+output: github_document
 ---
 
 I'm an R Markdown document! 
