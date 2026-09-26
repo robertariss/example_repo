@@ -116,3 +116,10 @@ Content Cell  | Content Cell
 * The mean is `r round(mean(pull(la_df, la_num)), 2)`
 
 * The standard deviation is `r round(sd(pull(la_df, la_num)), 2)`
+
+Histogram
+
+```{r}
+ggplot(plot_df, aes(x = x)) + geom_histogram()
+```
+
